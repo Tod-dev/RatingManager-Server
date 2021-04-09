@@ -1,0 +1,20 @@
+{
+  "name": "server_ratings",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Marco Todaro",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server",
+    "start": "node server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express.js": "^1.0.0",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
